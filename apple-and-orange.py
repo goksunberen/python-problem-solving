@@ -6,7 +6,7 @@ import sys
 
 # Complete the countApplesAndOranges function below.
 def countApplesAndOranges(s, t, a, b, apples, oranges):
-    apple_count = 1
+    apple_count = 0
     orange_count = 0
     for index in apples:
         if index >= s-a and index <= (s-a) + (t-s):
